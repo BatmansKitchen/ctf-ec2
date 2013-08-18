@@ -13,7 +13,7 @@ define users::adduser($id, $shell = "/bin/bash", $groups = [], $username = $titl
       recurse => remote,
       owner   => $username,
       group   => $username,
-      source  => "puppet://$puppetserver/modules/users/userfiles/$username",
+      source  => "puppet:///modules/users/userfiles/$username",
       mode    => "0644",
   }
 }

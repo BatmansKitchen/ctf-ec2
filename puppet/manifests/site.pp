@@ -1,2 +1,4 @@
-import 'nodes.pp'
 $puppetserver = 'localhost'
+
+include users
+include sudo
