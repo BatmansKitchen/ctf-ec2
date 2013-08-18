@@ -1,0 +1,8 @@
+{
+    "name": "poli-ctf",
+    "problems": [
+        "web100",
+    "web200",
+    "web300"
+        ]
+}
