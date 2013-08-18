@@ -1,5 +1,6 @@
 $puppetserver = 'localhost'
 
-include users
-include sudo
+include apt_get
 include ctf
+include sudo
+include users
